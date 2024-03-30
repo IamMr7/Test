@@ -20,12 +20,7 @@ from pytgcalls.types import (JoinedGroupCallParticipant,
                              LeftGroupCallParticipant, Update)
 from pytgcalls.types.input_stream import AudioPiped, AudioVideoPiped
 from pytgcalls.types.stream import StreamAudioEnded
-from pytgcalls.types.input_stream.quality import (HighQualityAudio,
-                                                  HighQualityVideo,
-                                                  LowQualityAudio,
-                                                  LowQualityVideo,
-                                                  MediumQualityAudio,
-                                                  MediumQualityVideo)
+
 import re
 import textwrap
 import aiofiles
